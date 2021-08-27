@@ -15,4 +15,4 @@ jobs:
     steps:
       - name: Print deploy folder
         run: 
-          echo ${{ env.DEPLOY_FOLDER }}
+          echo ${{ env.DEPLOY_FOLDER }} 
