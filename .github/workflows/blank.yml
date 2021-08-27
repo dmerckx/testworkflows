@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  DEPLOY_FOLDER: ${{ fromJSON('{"foor":"bar"}') }}
+  DEPLOY_FOLDER: ${{ fromJSON('{"foo":"bar"}')["foo"] }}
 
 jobs:
   combell-deploy:
