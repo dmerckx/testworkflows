@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  DEPLOY_FOLDER: ${{ github.ref == 'refs/heads/main' && 'production' || github.ref }}
+  DEPLOY_FOLDER: ${{ github.ref }}
 
 jobs:
   combell-deploy:
